@@ -7,10 +7,13 @@ import { TooltipModule } from 'primeng/tooltip';
 import { TableModule } from 'primeng/table';
 import { ButtonModule } from 'primeng/button';
 import { InputTextModule } from 'primeng/inputtext';
+import { InputNumberModule } from 'primeng/inputnumber';
+
+
+import { SharedModule } from '../shared/shared.module';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { PessoasGridComponent } from './pessoas-grid/pessoas-grid.component';
 import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
-import { InputNumberModule } from 'primeng/inputnumber';
 
 
 
@@ -30,6 +33,8 @@ import { InputNumberModule } from 'primeng/inputnumber';
     TooltipModule,
     InputMaskModule,
     InputNumberModule,
+
+    SharedModule
   ],
   exports: [
     PessoaCadastroComponent,
